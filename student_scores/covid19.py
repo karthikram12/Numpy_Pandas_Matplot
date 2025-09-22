@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from numpy import random
 
 covid_data_csv = pd.read_csv('full_grouped.csv')
 covid_data = pd.DataFrame(covid_data_csv)
